@@ -1,0 +1,25 @@
+.Blog{
+    @apply mt-[8rem] px-[30px] relative bg-[#555] rounded shadow-2xl shadow-[#ff8181] flex flex-col  text-[#555] w-full border border-[#555] 
+}
+.Blog-Header{
+ @apply font-black text-[40px] my-[1rem] text-center mt-[1rem] bg-[#ff8181] rounded text-[#555] font-sans  
+}
+.Blog-Des{
+ @apply text-[25px] font-bold  text-justify bg-[#ff8181] rounded text-[#555] p-4 my-[5rem]
+}
+
+.Blog-List{
+    @apply mt-[3rem] bg-[#c2c2c2] text-[#555] p-6 rounded mb-[0.5rem]
+}
+.Links{
+font-family: "Lalezar";
+ @apply font-black mx-[25px] text-[30px];
+ transition: all 0.5s
+}
+.Links:hover{
+ @apply text-[#111] border-b border-[#555]
+}
+.Show-item{
+ @apply mt-[5rem] p-8 border-double border-[20px] rounded text-[20px] text-justify font-black text-[#ff8181] w-[1200px] mx-[75px];
+ text-shadow: 1px 1px #555;
+}

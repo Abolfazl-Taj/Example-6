@@ -1,0 +1,29 @@
+@keyframes movement {
+    0%{
+      transform: translateY(-8px);
+    }
+    100%{
+        transform: translateY(8px);
+
+    }
+    
+}
+.Home{
+    @apply mt-[4rem]  w-full p-3
+}
+.Header{
+    @apply flex w-full justify-center items-center px-4  shadow-2xl shadow-[#ff8181] border-double border-4 border-[#ff8181]
+}
+.Header-Left{
+    @apply font-bold text-[#fe3434be]
+}
+.Topic{
+    @apply font-extrabold text-[35px] my-3 shadow p-1 rounded border border-[#ff8181]
+}
+.Header-des{
+    @apply text-[18px] text-justify
+}
+.Header img{
+    animation: linear movement 1s infinite alternate ;
+    @apply p-1 mx-1 rounded; 
+}

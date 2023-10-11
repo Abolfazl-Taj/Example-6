@@ -1,0 +1,19 @@
+.Login{
+    @apply  w-full flex flex-col justify-center items-center h-[100vh] bg-[#f75858] font-black
+}
+.Login-Header{
+    @apply font-black text-center bg-[#555] shadow-2xl text-[35px] p-5 rounded-t-full shadow-[#111] text-[#fff]
+}
+.Login-Inputs{
+ @apply flex flex-col justify-center items-center rounded   p-7   h-[300px] shadow-2xl shadow-[#111];
+ direction:ltr;
+ border: double 20px #555;
+ border-bottom: transparent 
+}
+.Login input{
+    @apply my-[1rem] rounded w-[320px] bg-[#555] text-[18px] p-2 shadow-lg shadow-[#111] text-[#ff8181] ;
+    outline: none;
+}
+.Login-btn{
+ @apply bg-[#555] text-[#ff8181] w-[417px] p-2 rounded-b-full font-black  text-[22px] 
+}

@@ -1,0 +1,12 @@
+.Error{
+    @apply w-full h-[100vh]  bg-red-300 text-[#555] flex flex-col justify-center items-center p-12
+}
+.Error img{
+    @apply w-[300px]
+}
+.ErrorFor{
+ @apply font-black text-[44px] 
+}
+.ForBtn{
+  @apply mt-[2rem] bg-[#555] text-red-300 p-2 rounded shadow-2xl 
+}

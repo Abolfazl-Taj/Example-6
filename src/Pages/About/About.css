@@ -1,0 +1,39 @@
+.About{
+    @apply mt-[8rem] bg-[#ff8181]   mx-[10px] p-5 text-[#555] rounded border border-[#111] shadow-2xl shadow-[#ff8181];
+}
+.About h1{
+ @apply font-bold text-[35px] my-[0.5rem] border-b border-[#555];
+ text-shadow: 1px 1px #222;
+}
+.About p{
+    @apply my-[1rem] text-[18px] text-justify font-bold;
+    text-shadow: 1px 1px #ff8181;
+}
+.Teacher-Section{
+    @apply my-[1.5rem] bg-[#555] text-[#ff8181] rounded p-3
+}
+.Teacher-Section h2{
+    @apply text-[35px] my-[0.5rem];
+    text-shadow: 1px 1px #222 
+}
+.Teachers{
+ @apply flex justify-center 
+}
+.Teacher{
+        transition: all 0.5s;
+    @apply flex flex-col  w-1/3 bg-[#ff8181] rounded mx-[10px] shadow shadow-[#ff8181] hover:bg-[#111]
+}
+.Teacher img{
+    @apply w-[300px] h-[300px] rounded-full mr-[15%] my-[1rem]
+}
+.Teacher-Name{
+ @apply text-[27px] text-[#555] text-center p-3 shadow shadow-[#555] rounded;
+ text-shadow: 1px 1px #222;
+}
+.Teeacher-Job{
+ @apply text-[#555] my-[1rem] p-3 text-[25px] font-bold;
+}
+.Btn{
+    @apply my-[1rem] text-center w-full bg-[#555] font-bold text-[20px] p-1 rounded border border-[#555] shadow-xl shadow-[#555];
+
+}

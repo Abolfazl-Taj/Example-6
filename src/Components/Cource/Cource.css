@@ -1,0 +1,21 @@
+.Cources{
+    @apply w-full mt-[9rem] flex justify-center items-center p-2 bg-[#ff8181] shadow rounded border border-[#555]
+}
+.Cource-item{
+ @apply flex flex-col justify-center mx-[15px] my-[1rem]  w-1/4 bg-[#555] text-[#ff8181] p-3 rounded border  border-[#ff4949] shadow-xl shadow-[#555]
+}
+.Cource-item img{
+    @apply rounded mb-[1.2rem]
+}
+.Cource-Header{
+    font-family: "Lalezar";
+    text-shadow: 1px 1px #111;
+  @apply text-[29px] my-[1.5rem] shadow-sm rounded ;
+}
+.Cource-Des{
+ @apply font-serif font-black text-[21px] mb-[1rem] text-justify text-[#222] border-double border-4  p-2 border-[#ff8181];
+ line-height: 25px;
+}
+.buy{
+@apply font-extrabold w-full rounded bg-[#ff8181] text-[#555] text-[18px]
+}

@@ -1,0 +1,27 @@
+.Cource{
+@apply mt-[5rem] flex w-full p-4 bg-[#ff8181] border border-[#ff38386c] shadow-2xl shadow-[#111]
+}
+.Cource img{
+    @apply w-1/2 mx-[12px] rounded
+}
+.Cource-Info{
+    @apply mx-[10px] flex flex-col justify-center bg-[#888] rounded p-5 shadow shadow-[#111]
+
+}
+.Cource-Info h1{
+    font-family: "Lalezar";
+    @apply text-[35px] text-[#ff8181] my-[0.5rem] text-center  shadow shadow-[#ff8181] rounded p-1;
+    text-shadow: 1px 1px #111 ;
+}
+.Cource-Info h3{
+ @apply text-[30px] font-black  text-[#333] my-[1rem]
+}
+.Cource-Info h4{
+    font-family: "Lalezar";
+    @apply font-bold text-[#ff8181] text-[20px] my-[0.5rem];
+    text-shadow: 1px 1px #111 ;
+}
+.Cource-Info p{
+    @apply text-justify font-bold  text-[#ff8181] text-[16px] my-[0.5rem];
+    text-shadow: 1px 1px #333 ;
+}

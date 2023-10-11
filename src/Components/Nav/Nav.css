@@ -1,0 +1,30 @@
+.Nav{
+  backdrop-filter: blur(16px) saturate(180%);
+  z-index: 50;
+  @apply bg-[#2222229c]  w-full flex justify-between p-3 shadow-xl shadow-[#666] border border-[#1111117f] rounded fixed;
+
+}
+
+.NavList{
+    @apply text-[18px] text-[#8f8f8f] font-bold w-full  flex justify-center items-center
+
+}
+ a.Left-Item{
+ @apply mx-[20px] p-1  w-[105px] text-center;
+ position:  relative ;
+}
+.Left-Item::after{
+   content: "";
+   position: absolute;  
+   top: 0; 
+   left: 1%;
+   scale:0;
+   @apply h-[1px] rounded w-full bg-[#888] text-center ;
+  transition:  all 0.25s 
+}
+.Left-Item:hover::after{
+  scale: 1;
+}
+.active{
+    @apply text-[#ff8181] border-b border-[#8f8f8f]  pb-1 rounded
+}

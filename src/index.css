@@ -1,0 +1,38 @@
+@font-face {
+    font-family: "Lalezar";
+    src: url(./Assets/Fonts/Lalezar-Font/TTF/Lalezar-Regular.ttf);
+}
+@font-face {
+    font-family: "Yekan" ;
+    src: url(./Assets//Fonts//B_Yekan//Yekan.ttf)
+}
+*{
+    font-family: "Yekan" , sans-serif ;
+}
+body{
+    @apply bg-[#0006] flex flex-col 
+}
+::selection{
+    @apply bg-[#111] text-[#ff8181]
+}
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #555;
+    border-radius: 10px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #ff8181;
+    border-radius: 10px;
+  } 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* darkmode #111 */
+
+
+
+
+
+

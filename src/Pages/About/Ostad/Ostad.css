@@ -1,0 +1,19 @@
+.Ostad{
+    @apply mt-[5rem] mx-[30px] bg-[#ff8181] flex justify-center items-center p-6 rounded border-double border-[6px] border-[#555]
+}
+.Ostad img{
+@apply rounded border border-[#555] w-[250px] h-[250px]
+}
+.Ostad-Des{
+    @apply mx-[0.5rem] p-8 shadow-2xl rounded border border-[#555];
+}
+.Ostad-Des h1{
+    @apply font-bold text-[35px] mb-[1rem]  text-[#555];
+    text-shadow: 1px 1px #111;
+}
+.Ostad-Des h2{
+    @apply text-[29px] text-center bg-[#555] text-[#ff8181] font-extrabold rounded p-2
+}
+.Ostad-Des p{
+    @apply text-justify font-bold mt-[1rem] bg-[#555] text-[#ff8181] p-2 rounded
+}
